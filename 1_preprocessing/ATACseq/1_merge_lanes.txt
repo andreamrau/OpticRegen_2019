@@ -1,0 +1,71 @@
+### Concatenate all files across lanes
+
+### ATACSeq
+cat 0ATAC-1_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0ATAC-1_R1.fastq.gz
+cat 0ATAC-1_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0ATAC-1_R2.fastq.gz
+cat 0ATAC-2_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0ATAC-2_R1.fastq.gz
+cat 0ATAC-2_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0ATAC-2_R2.fastq.gz
+cat 0ATAC-3_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0ATAC-3_R1.fastq.gz
+cat 0ATAC-3_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0ATAC-3_R2.fastq.gz
+
+cat 2ATAC-1_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2ATAC-1_R1.fastq.gz
+cat 2ATAC-1_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2ATAC-1_R2.fastq.gz
+cat 2ATAC-2_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2ATAC-2_R1.fastq.gz
+cat 2ATAC-2_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2ATAC-2_R2.fastq.gz
+cat 2ATAC-3_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2ATAC-3_R1.fastq.gz
+cat 2ATAC-3_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2ATAC-3_R2.fastq.gz
+
+cat 4ATAC-1_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4ATAC-1_R1.fastq.gz
+cat 4ATAC-1_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4ATAC-1_R2.fastq.gz
+cat 4ATAC-2_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4ATAC-2_R1.fastq.gz
+cat 4ATAC-2_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4ATAC-2_R2.fastq.gz
+cat 4ATAC-3_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4ATAC-3_R1.fastq.gz
+cat 4ATAC-3_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4ATAC-3_R2.fastq.gz
+
+cat 7ATAC-2_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7ATAC-2_R1.fastq.gz
+cat 7ATAC-2_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7ATAC-2_R2.fastq.gz
+cat 7ATAC-3_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7ATAC-3_R1.fastq.gz
+cat 7ATAC-3_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7ATAC-3_R2.fastq.gz
+
+cat 12ATAC-1_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12ATAC-1_R1.fastq.gz
+cat 12ATAC-1_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12ATAC-1_R2.fastq.gz
+cat 12ATAC-2_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12ATAC-2_R1.fastq.gz
+cat 12ATAC-2_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12ATAC-2_R2.fastq.gz
+cat 12ATAC-3_*_R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12ATAC-3_R1.fastq.gz
+cat 12ATAC-3_*_R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12ATAC-3_R2.fastq.gz
+
+### RNASeq
+cat 0RNA1_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0RNA1_R1.fastq.gz
+cat 0RNA1_*R2*.fastq.gz	> ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0RNA1_R2.fastq.gz
+cat 0RNA2_*R1*.fastq.gz	> ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0RNA2_R1.fastq.gz
+cat 0RNA2_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0RNA2_R2.fastq.gz
+cat 0RNA3_*R1*.fastq.gz	> ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0RNA3_R1.fastq.gz
+cat 0RNA3_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/0RNA3_R2.fastq.gz
+
+cat 2RNA1_*R1*.fastq.gz	> ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2RNA1_R1.fastq.gz
+cat 2RNA1_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2RNA1_R2.fastq.gz
+cat 2RNA2_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2RNA2_R1.fastq.gz
+cat 2RNA2_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2RNA2_R2.fastq.gz
+cat 2RNA3_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2RNA3_R1.fastq.gz
+cat 2RNA3_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/2RNA3_R2.fastq.gz
+
+cat 4RNA1_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4RNA1_R1.fastq.gz
+cat 4RNA1_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4RNA1_R2.fastq.gz
+cat 4RNA2_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4RNA2_R1.fastq.gz
+cat 4RNA2_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4RNA2_R2.fastq.gz
+cat 4RNA3_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4RNA3_R1.fastq.gz
+cat 4RNA3_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/4RNA3_R2.fastq.gz
+
+cat 7RNA1_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7RNA1_R1.fastq.gz
+cat 7RNA1_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7RNA1_R2.fastq.gz
+cat 7RNA2_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7RNA2_R1.fastq.gz
+cat 7RNA2_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7RNA2_R2.fastq.gz
+cat 7RNA3_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7RNA3_R1.fastq.gz
+cat 7RNA3_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/7RNA3_R2.fastq.gz
+
+cat 12RNA1_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12RNA1_R1.fastq.gz
+cat 12RNA1_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12RNA1_R2.fastq.gz
+cat 12RNA2_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12RNA2_R1.fastq.gz
+cat 12RNA2_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12RNA2_R2.fastq.gz
+cat 12RNA3_*R1*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12RNA3_R1.fastq.gz
+cat 12RNA3_*R2*.fastq.gz > ~/Data/Optic-Regen/results/ATACseq/MERGED_LANES/12RNA3_R2.fastq.gz
