@@ -39,11 +39,11 @@ It is organized as follows:
 
 - **3_peak-gene-annotation/**
 
-      - `1_make_MEME_format.R`: script to automate making a file in MEME format based on Jaspar and Lambert IDs
-      - `2_AME_reformat.R`: script to reformat AME results for downstream analysis
-      - `3_TF_cooccurrence-graphs.R`: produce visualizations of TF motif co-occurrence (network plots, UpsetR plots, bar graphs, heatmaps)
-      - `4_identify_distal-proximal_peaks.R`: identify annotations for peaks (e.g. distal and proximal to genes, exonic/intronic/overlapping TSS)
-      - `peaklets/`: folder containing MACS output files for peaks (`ATAC.nodup.unique.macs.peaklets_peaks.narrowPeak`) and peak summits (`ATAC.nodup.unique.macs.peaklets_summits.bed`) as well as a bed file of peaklet locations (`ALLMERGED_ATAC.nodup.unique.macs.peaklets_peaks.pvalsort.narrowPeak_500bp.bed`)
+    - `1_make_MEME_format.R`: script to automate making a file in MEME format based on Jaspar and Lambert IDs
+    - `2_AME_reformat.R`: script to reformat AME results for downstream analysis
+    - `3_TF_cooccurrence-graphs.R`: produce visualizations of TF motif co-occurrence (network plots, UpsetR plots, bar graphs, heatmaps)
+    - `4_identify_distal-proximal_peaks.R`: identify annotations for peaks (e.g. distal and proximal to genes, exonic/intronic/overlapping TSS)
+    - `peaklets/`: folder containing MACS output files for peaks (`ATAC.nodup.unique.macs.peaklets_peaks.narrowPeak`) and peak summits (`ATAC.nodup.unique.macs.peaklets_summits.bed`) as well as a bed file of peaklet locations (`ALLMERGED_ATAC.nodup.unique.macs.peaklets_peaks.pvalsort.narrowPeak_500bp.bed`)
 
 - **misc/**
   - `checking_final_numbers.R`: script to check final numbers for the paper
