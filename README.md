@@ -10,8 +10,8 @@ It is organized as follows:
         - `1_merge_lanes.txt`: concatenate sequencing lanes containing technical replicates into a single file
         - `2_trimgalore.sh`: trim adaptor sequences
         - `3_fastqc.sh`: validate sequence quality
-        - `4_bwa_alignment_danio_w_transgene.sh: align reads to the zebrafish genome (GRCz10) and transgene sequence
-        - `5_fastqc_aligned.sh: validate aligned sequence quality
+        - `4_bwa_alignment_danio_w_transgene.sh`: align reads to the zebrafish genome (GRCz10) and transgene sequence
+        - `5_fastqc_aligned.sh`: validate aligned sequence quality
         - `6_macs_peaklets_alltimes.sh`: call peaks from aligned reads and identify summits of deconvoluted subpeaks were identified
         - `7_remove_MTduplicates.sh`: remove duplicates and multiple mapped reads
         - `get_fasta_from_bed.sh`: script to obtain fasta file of sequence corresponding to a provided bed file
@@ -25,8 +25,7 @@ It is organized as follows:
 
 - **2_differential-analysis/**
 
-    - **ATACseq**
-
+    - **ATACseq**  
         - `1_differential-analysis_diffBind_all-vs-0.R`: perform differential analysis of quantified peaklets for time points 2, 4, 7, and 12 versus 0 using *diffBind*  
         - `2_sigresults-as-bed-file.R`: output bed files of significant peaks  
         - `4timepts_vs0_results/`: folder containing result files (bed and csv) for each comparison
@@ -44,7 +43,7 @@ It is organized as follows:
       - `2_AME_reformat.R`: script to reformat AME results for downstream analysis
       - `3_TF_cooccurrence-graphs.R`: produce visualizations of TF motif co-occurrence (network plots, UpsetR plots, bar graphs, heatmaps)
       - `4_identify_distal-proximal_peaks.R`: identify annotations for peaks (e.g. distal and proximal to genes, exonic/intronic/overlapping TSS)
-      - `peaklets/`: folder containing MACS output files for peaks (ATAC.nodup.unique.macs.peaklets_peaks.narrowPeak) and peak summits (ATAC.nodup.unique.macs.peaklets_summits.bed) as well as a bed file of peaklet locations (ALLMERGED_ATAC.nodup.unique.macs.peaklets_peaks.pvalsort.narrowPeak_500bp.bed)
+      - `peaklets/`: folder containing MACS output files for peaks (`ATAC.nodup.unique.macs.peaklets_peaks.narrowPeak`) and peak summits (`ATAC.nodup.unique.macs.peaklets_summits.bed`) as well as a bed file of peaklet locations (`ALLMERGED_ATAC.nodup.unique.macs.peaklets_peaks.pvalsort.narrowPeak_500bp.bed`)
 
 - **misc/**
   - `checking_final_numbers.R`: script to check final numbers for the paper
