@@ -1,5 +1,8 @@
 ### Source code for Dhara et al. (2019)
 
+[![DOI](https://zenodo.org/badge/184628135.svg)](https://zenodo.org/badge/latestdoi/184628135)
+
+
 This repository contains the following source code files used to analyze the RNA-seq and ATAC-seq data in Dhara et al. (2019).
 
 It is organized as follows:
